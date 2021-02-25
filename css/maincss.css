@@ -1,0 +1,245 @@
+/*
+reset
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sans;
+    src: url("../font/Iranian Sans.ttf");
+}
+
+@font-face {
+    font-family: myekan;
+    src: url("../font/byekan.ttf");
+}
+.font0{
+    font-size: 8.5pt;
+}
+.font1{
+    font-size: 9.5pt;
+}
+.font2{
+    font-size: 11.5pt;
+}
+body {
+    line-height: 1;
+    direction: rtl;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/*header*/
+#header {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    background-color: #fdfef9;
+    padding-top: 10px;
+}
+
+#header_right {
+    width: 720px;
+    height: 100px;
+    float: right;
+}
+
+#header_left {
+    float: left;
+
+}
+
+#header_right_top {
+    height: 40px;
+}
+
+#header_right_top > span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#header_right_top > span:first-child {
+    background: url("../icon/lock.png") no-repeat;
+}
+
+#header_right_top > a {
+    vertical-align: 4px;
+    font-size: 9.5pt;
+    color: #607367;
+    margin-right: 5px;
+    margin-left: 30px;
+    font-family: sans;
+}
+
+#header_right_top > span:nth-child(3) {
+    background: url("../icon/user.png") no-repeat;
+}
+
+#header_right_bot {
+    height: 60px;
+}
+
+#header_right_bot > div {
+    float: right;
+    height: 40px;
+}
+
+#header_right_bot > div:first-child {
+    width: 190px;
+}
+
+#header_right_bot > div:nth-child(2) {
+    width: 500px;
+}
+
+#sabad {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    background: url(../icon/sabad.png) no-repeat #307f3f center;
+}
+#contor{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+    background-color: #63cf68;
+    line-height: 36px;
+}
+#contor>span:first-child{
+    font-size: 11.5pt;
+    font-family: myekan;
+    margin-right: 16px;
+}
+#contor>span:first-child>a{
+    color: #ffffff;
+}
+#contor>span:nth-child(2){
+
+    border-radius: 100%;
+    background-color: #1b8416;
+    margin-right: 10px;
+    color: #dcdbdb;
+    font-size: 12pt;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+#search input{
+    float: right;
+    width: 400px;
+    height: 40px;
+    margin-right: 15px;
+    border: 1px solid #888383;
+    box-shadow: inset 1px 1px 1px #88838366;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+    padding-right: 10px;
+    font-weight: bold;
+    opacity:0.8;
+    font-family: 'myekan';
+}
+#search div{
+    float: right;
+    background: #adadad url("../icon/search.png") no-repeat center;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+}
