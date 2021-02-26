@@ -22,9 +22,11 @@ time, mark, audio, video {
     vertical-align: baseline;
     background: transparent;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: sans;
     src: url("../font/Iranian Sans.ttf");
@@ -34,15 +36,19 @@ time, mark, audio, video {
     font-family: myekan;
     src: url("../font/byekan.ttf");
 }
-.font0{
+
+.font0 {
     font-size: 8.5pt;
 }
-.font1{
+
+.font1 {
     font-size: 9.5pt;
 }
-.font2{
+
+.font2 {
     font-size: 11.5pt;
 }
+
 body {
     line-height: 1;
     direction: rtl;
@@ -123,7 +129,7 @@ input, select {
 /*header*/
 #header {
     width: 1200px;
-    height: 100px;
+    height: 110px;
     margin: auto;
     background-color: #fdfef9;
     padding-top: 10px;
@@ -193,7 +199,8 @@ input, select {
     border-radius: 0 4px 4px 0;
     background: url(../icon/sabad.png) no-repeat #307f3f center;
 }
-#contor{
+
+#contor {
     float: left;
     width: 150px;
     height: 40px;
@@ -201,15 +208,18 @@ input, select {
     background-color: #63cf68;
     line-height: 36px;
 }
-#contor>span:first-child{
+
+#contor > span:first-child {
     font-size: 11.5pt;
     font-family: 'myekan', serif;
     margin-right: 16px;
 }
-#contor>span:first-child>a{
+
+#contor > span:first-child > a {
     color: #ffffff;
 }
-#contor>span:nth-child(2){
+
+#contor > span:nth-child(2) {
 
     border-radius: 100%;
     background-color: #1b8416;
@@ -222,7 +232,8 @@ input, select {
     line-height: 25px;
     text-align: center;
 }
-#search input{
+
+#search input {
     float: right;
     width: 400px;
     height: 40px;
@@ -233,6 +244,7 @@ input, select {
     border-radius: 0 3px 3px 0;
     padding-right: 10px;
     font-weight: bold;
+<<<<<<< HEAD
     opacity:0.8;
 }
 
@@ -241,9 +253,55 @@ input, select {
 }
 
 #search div{
+=======
+    opacity: 0.8;
+    font-family: 'myekan';
+}
+
+#search div {
+>>>>>>> front
     float: right;
     background: #adadad url("../icon/search.png") no-repeat center;
     width: 40px;
     height: 40px;
     border-radius: 3px 0 0 3px;
+}
+
+/*navbar*/
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: #dcdbdb;
+    box-shadow: 0px 3px 4px #c3c3c3;
+    -moz-box-shadow:0px 3px 4px #c3c3c3;
+    -webkit-box-shadow:0px 3px 4px #c3c3c3;
+}
+
+#navs1 {
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+    border-right: 1px solid #ccc;
+}
+#navs1>ul>li>a{
+    color: #5d5d5dad;
+    width: inherit;
+    padding-right: 5px;
+}
+#navs1>ul>li{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-family: 'myekan', serif;
+    position: relative;
+    border-left: 1px solid #ccc;
+}
+.nav-down{
+background: url("../icon/down.png") no-repeat 1px 1px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 11px;
+    left: 15px;
 }
