@@ -168,7 +168,7 @@ input, select {
     color: #607367;
     margin-right: 5px;
     margin-left: 30px;
-    font-family: sans;
+    font-family: sans, serif;
 }
 
 #header_right_top > span:nth-child(3) {
@@ -211,7 +211,7 @@ input, select {
 
 #contor > span:first-child {
     font-size: 11.5pt;
-    font-family: myekan;
+    font-family: 'myekan', serif;
     margin-right: 16px;
 }
 
@@ -245,7 +245,7 @@ input, select {
     padding-right: 10px;
     font-weight: bold;
     opacity: 0.8;
-    font-family: 'myekan';
+    font-family: 'myekan', serif;
 }
 
 #search div {
@@ -261,9 +261,10 @@ nav {
     width: 100%;
     height: 40px;
     background-color: #dcdbdb;
-    box-shadow: 0px 3px 4px #c3c3c3;
-    -moz-box-shadow:0px 3px 4px #c3c3c3;
-    -webkit-box-shadow:0px 3px 4px #c3c3c3;
+    box-shadow: 0 3px 4px #c3c3c3;
+    -moz-box-shadow: 0 3px 4px #c3c3c3;
+    -webkit-box-shadow: 0 3px 4px #c3c3c3;
+    border-top: 1px solid #b7b7b7;
 }
 
 #navs1 {
@@ -272,22 +273,29 @@ nav {
     margin: auto;
     border-right: 1px solid #ccc;
 }
-#navs1>ul>li>a{
+
+#navs1 > ul {
+    position: relative;
+}
+
+#navs1 > ul > li a {
     color: #5d5d5d;
     width: inherit;
     padding-right: 5px;
+    position: relative;
 }
-#navs1>ul>li{
+
+#navs1 > ul > li {
     display: inline-block;
     height: 40px;
     width: 100px;
     line-height: 40px;
     font-family: 'myekan', serif;
-    position: relative;
     border-left: 1px solid #ccc;
 }
-.nav-down{
-background: url("../icon/down.png") no-repeat 1px 1px;
+
+.nav-down {
+    background: url("../icon/down.png") no-repeat 1px 1px;
     position: absolute;
     width: 20px;
     height: 20px;
@@ -295,3 +303,21 @@ background: url("../icon/down.png") no-repeat 1px 1px;
     left: 15px;
 }
 
+.navs2 {
+    width: 1200px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #f3f3f3;
+    border-top: 1px solid #a5a5a5;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.navs2 > li {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    font-family: 'myekan', serif;
+}
