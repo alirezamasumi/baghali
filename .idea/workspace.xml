@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9df74047-2265-4d75-82d5-837c730805f5" name="Default Changelist" comment="" />
+    <list default="true" id="9df74047-2265-4d75-82d5-837c730805f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/maincss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/maincss.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="339">
@@ -22,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/maincss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="275" column="18" selection-start-line="275" selection-start-column="18" selection-end-line="275" selection-end-column="18" />
+            <state relative-caret-position="439">
+              <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
             </state>
           </provider>
         </entry>
@@ -39,12 +41,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/maincss.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/maincss.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
     <option name="width" value="1377" />
     <option name="height" value="726" />
@@ -103,15 +105,15 @@
       <updated>1614286206553</updated>
       <workItem from="1614286210126" duration="609000" />
       <workItem from="1614349466591" duration="8203000" />
-      <workItem from="1614531794049" duration="354000" />
+      <workItem from="1614531794049" duration="680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7463000" />
+    <option name="totallyTimeSpent" value="7789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1377" height="726" extended-state="1" />
+    <frame x="-2" y="0" width="1377" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574032" />
@@ -139,13 +141,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/maincss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="275" column="18" selection-start-line="275" selection-start-column="18" selection-end-line="275" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -153,6 +148,13 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/maincss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="297" lean-forward="true" selection-start-line="297" selection-end-line="297" />
         </state>
       </provider>
     </entry>
